@@ -41,7 +41,7 @@ jobs:
 
       - name: Retrieve PLT Cache
 
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed
+        uses: actions/cache@4723a57e26efda3a62cbde1812113b730952852d
         id: plt-cache
         with:
           path: priv/plts
